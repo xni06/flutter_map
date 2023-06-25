@@ -1,4 +1,9 @@
 include: package:pedantic/analysis_options.yaml
+
+analyzer:
+  errors:
+    assignment_to_final: false
+  
 linter:
   rules:
     - always_declare_return_types
